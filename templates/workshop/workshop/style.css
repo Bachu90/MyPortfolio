@@ -1,0 +1,118 @@
+
+/* PAGE */
+body {
+	background-color: #000;
+}
+
+div#wrapper {
+	width: 1024px;
+	height: 768px;
+	margin: 10px auto;
+	background-image: url(img/background.jpg);
+	border: none;
+	margin-top: -60px;
+		
+}
+
+/* HEADER */
+
+header {
+	width: 1024px;
+	height: 200px;
+	line-height: 10px;
+}
+
+header h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #FF0000;
+	font-size: 5em;
+	padding-top: 90px;
+	padding-left: 260px;
+	padding-bottom: 5px;
+	text-shadow: 0px 0px 5px #FF6F6F;
+
+}
+
+header h3 {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #FFD200;
+	font-size: 3em;
+	padding-left: 530px;
+	padding-top: 5px;
+}
+	
+/* NAVI */
+
+nav {
+	width: 280;
+	min-height: 488px;
+	float: left;
+	
+}
+
+nav ul {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 2.5em;
+	line-height: 2em;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+nav ul li a {
+	color: #FFD200;
+	text-decoration: none;
+	word-spacing: -10px;
+}
+
+nav ul li a:hover {
+	color: #FF0000;
+}
+
+/* CONTENT */
+
+section {
+	width: 650px;
+	height: 450px;
+	border-radius: 20px;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 0px 0px 10px #FFF;
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+section article {
+	width: 620px;
+	height: 420px;
+	margin: 15px 5px 15px auto;
+	overflow: auto;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* FOOTER */
+
+footer {
+	width: 1024px;
+	height: auto;
+	clear: both;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #999;
+	padding-top: 3px;
+}
+
+footer p {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #999;
+	text-align: center;
+}
+
+footer p a {
+	color: #FFD200;
+	text-decoration: none;
+}
+
+footer p a:hover {
+	color: #FF0000;
+}
+	
+

@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'CallOfDuty';
+	src: url('../fonts/Call_of_Duty.otf') format('otf');
+	font-weight: normal;
+	font-style: normal;
+}
+/* CSS Document */
+
+body {
+	background-color: rgb(177,194,179);
+}
+
+#wrapper {
+	width: 960px;
+	height: 768px;
+	margin: 10px auto 10px auto;
+	border: 1px solid #778691;
+}
+
+header {
+	width: 960px;
+	height: 134px;	
+}
+
+div#header_left {
+	width: 504px;
+	height: 134px;
+	float: left;
+}
+div#header_1 {
+	width: 504px;
+	height: 86px;
+	float: left;
+	background-image: url(../img/header_1.jpg);
+}
+
+div#header_2 {
+	width: 504px;
+	height: 48px;
+	float: left;
+	background-image: url(../img/header_2.jpg);
+}
+
+div#header_right {
+	width: 456px;
+	height: 134px;
+	float: left;
+	background-image: url(../img/header_3.jpg);
+}
+
+ul#menu {
+	width: 406px;
+	height: 48px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+}
+
+ul#menu li {
+	display: inline-block;
+	list-style: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #778691;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ul#menu li a {
+	text-decoration: none;
+	color: #778691;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+
+div.menu_bar {
+	width: 100%;
+	height: 5px;
+	background-color: #778691;
+	margin-top: 0px;
+	box-shadow: 1px 1px 1px #000;
+}
+
+#middle {
+	width: 960px;
+	height: 268px;
+	clear: both;
+}
+
+div#middle_1 {
+	width: 504px;
+	height: 268px;
+	float: left;
+	background-image: url(../img/middle_1.jpg);
+}
+
+div#middle_2 {
+	width: 456px;
+	height: 268px;
+	float: left;
+	background: url(../img/middle_2.jpg) repeat-x;
+}
+
+div#middle_text {
+	width: 380px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+div#middle_text p {
+	color: #b1c2b3;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#content {
+	width: 960px;
+	height: 326px;
+	clear: both;
+	background: url(../img/content.jpg) repeat-x;
+}
+
+div#content_box_set {
+	width: 825px;
+	height: 174px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 80px;
+}
+
+div.content_box {
+	width: 225px;
+	height: 174px;
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+footer {
+	width: 960px;
+	height: 40px;
+	clear: both;
+	background-image: url(../img/footer.jpg);
+}
+
+footer p {
+	display: inline-block;
+	line-height: 0;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: #778691;
+	font-weight: 700;
+	margin-left: 320px;
+	margin-top: 18px;
+}
+
+footer p a{
+	text-decoration: none;
+	color: #778691;
+}
+
+footer p a:hover {
+	color: #f5fcd0;	
+}
+	
